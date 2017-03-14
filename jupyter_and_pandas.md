@@ -9,6 +9,7 @@ pip3 install jupyter pandas
 
 ## "Notebook-driven development"
 
+`git clone https://github.com/hnlee/jupyter_pandas_zagaku.git`
 `jupyter notebook zagaku.ipynb`
 
 ### Advantages
@@ -26,6 +27,7 @@ pip3 install jupyter pandas
 * Version control possible, but git diff hard to read
 ** Recommendation is to generate .html and .py for git commits
 ** See: https://svds.com/jupyter-notebook-best-practices-for-data-science/
+* Better suited for scripting and imperative programming
 
 ### Unit testing
 
@@ -42,7 +44,7 @@ pip3 install jupyter pandas
 
 From [Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.html)
 
-### pandas Tutorial
+### `pandas` Tutorial
 
 [Cheatsheet](https://github.com/pandas-dev/pandas/blob/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf)
 
